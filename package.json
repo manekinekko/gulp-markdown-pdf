@@ -9,6 +9,11 @@
     "email": "sindresorhus@gmail.com",
     "url": "sindresorhus.com"
   },
+  "contributors": [{ 
+    "name" : "Wassim Chegham", 
+    "email" : "maneki.nekko@gmail.com", 
+    "url" : "https://github.com/manekinekko/"
+  }],
   "engines": {
     "node": ">=0.10.0"
   },
@@ -32,7 +37,7 @@
   ],
   "dependencies": {
     "gulp-util": "^3.0.0",
-    "markdown-pdf": "^5.1.0",
+    "markdown-pdf": "https://github.com/manekinekko/markdown-pdf.git#master",
     "through2": "^0.6.1"
   },
   "devDependencies": {
